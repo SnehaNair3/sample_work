@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.two-sections{
+    display: flex;
+    flex-direction: row;
+}
+
+.most-left-section{
+   background-color: #474747;
+   width: 50%;
+}
+
+.heading-section nav{
+    background-color: #383838;
+}
+.heading-section nav a {
+    text-decoration: none;
+    color: white;
+    padding: 2rem;
+}
+
+.heading-section h2{
+    color: grey;
+    padding: 20px;
+    font-size:20px;
+}
+
+.main-heading-section{
+ display: flex;
+ justify-content: space-around;
+ margin-left: 50px;
+}

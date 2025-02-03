@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.cancel-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  color: #555;
+  cursor: pointer;
+}
+
+.steps {
+  display: flex;
+  gap: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #aaa;
+}
+
+.step span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+  color: #555;
+  font-weight: bold;
+}
+
+.step.completed span {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.step.active span {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.upload-section {
+  display: flex;
+  justify-content: center;
+}
+
+.upload-box {
+  text-align: center;
+  border: 2px dashed #ddd;
+  padding: 30px;
+  border-radius: 10px;
+  width: 60%;
+  background-color: #f9f9f9;
+}
+
+.upload-box img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.upload-box p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.upload-box span {
+  display: block;
+  font-size: 14px;
+  color: #777;
+}
+
+.template-list {
+  background: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.template-list h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.template {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.template img {
+  width: 30px;
+}
+
+.template span {
+  flex-grow: 1;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.cancel-download, .download-button, .expand-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+}
+
+.progress-bar {
+  width: 100px;
+  height: 5px;
+  background: #ddd;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.progress {
+  width: 60%;
+  height: 100%;
+  background: #2196f3;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button, .next-button {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+.next-button {
+  background-color: #2196f3;
+  color: #fff;
+}
